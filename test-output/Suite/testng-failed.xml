@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="ErrorValidationsTest(failed)" parallel="tests">
+    <classes>
+      <class name="Priyankaacademy.SeleniumFrameworkDesign.ErrorValidations">
+        <methods>
+          <include name="ErrorCode"/>
+          <include name="teardown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- Priyankaacademy.SeleniumFrameworkDesign.ErrorValidations -->
+    </classes>
+  </test> <!-- ErrorValidationsTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
